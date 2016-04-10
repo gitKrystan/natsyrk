@@ -30,13 +30,17 @@ gem 'turbolinks'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'rest-client', '~> 1.8'
 
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails', '~> 4.0'
+  gem 'dotenv-rails'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   # gem 'web-console', '~> 2.0'
+  gem 'vcr'
+  gem 'webmock'
 end

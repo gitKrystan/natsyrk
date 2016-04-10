@@ -17,7 +17,8 @@ ActiveRecord::Schema.define(version: 20160410011041) do
   enable_extension "plpgsql"
 
   create_table "entries", force: :cascade do |t|
-    t.string   "github_response"
+    t.string   "name"
+    t.text     "github_response"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end

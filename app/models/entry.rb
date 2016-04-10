@@ -1,18 +1,30 @@
 class Entry < ActiveRecord::Base
+  USER_REQUEST = "https://api.github.com/users/#{ENV['GITHUB_USERNAME']}".freeze
+
   def self.load_starred
     begin
-      response = RestClient.get 'https://api.github.com/users/gitKrystan/starred'
+      response = RestClient.get "#{USER_REQUEST}/starred"
     rescue => e
       puts e.response
     end
-    find_or_create_entries(response)
+    upsert_entries(response)
   end
 
-  def self.find_or_create_entries(response)
+  def self.upsert_entries(response)
     parsed_response = JSON.parse(response)
-    parsed_response.each do |repo|
-      repo_json = JSON.generate(repo)
-      Entry.create(github_response: repo_json)
+    parsed_response.each do |entry|
+      upsert_entry(entry)
+    end
+  end
+
+  def self.upsert_entry(entry_hash)
+    entry_json = JSON.generate(entry_hash)
+    entry = find_or_initialize_by(name: entry_hash['name'])
+    if entry.id
+      entry.update(github_response: entry_json)
+    else
+      entry.github_response = entry_json
+      entry.save
     end
   end
 end

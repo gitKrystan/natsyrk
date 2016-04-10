@@ -36,11 +36,15 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails', '~> 4.0'
   gem 'dotenv-rails'
+  gem 'pry'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   # gem 'web-console', '~> 2.0'
+end
+
+group :test do
   gem 'vcr'
   gem 'webmock'
 end

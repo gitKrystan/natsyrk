@@ -1,9 +1,7 @@
 class CreateEntries < ActiveRecord::Migration
   def change
     create_table :entries do |t|
-      t.string :name
-      t.string :link
-      t.string :content
+      t.string :github_response
 
       t.timestamps null: false
     end

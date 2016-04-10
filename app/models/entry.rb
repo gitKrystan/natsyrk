@@ -2,6 +2,7 @@ class Entry < ActiveRecord::Base
   USER_REQUEST = "https://api.github.com/users/#{ENV['GITHUB_USERNAME']}".freeze
 
   def self.load_starred
+    Entry.destroy_all
     response = RestClient.get "#{USER_REQUEST}/starred"
     upsert_entries(response)
   end

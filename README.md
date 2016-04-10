@@ -18,6 +18,7 @@ Natsyrk is my personal portfolio site. It features:
   1. `$ rake db:create`
   1. `$ rake db:migrate`
   1. `$ rake db:test:prepare`
+1. Create your `.env` file. See sample at `.env_sample`
 1. Run the tests (see below)
 
 ## Running / Development

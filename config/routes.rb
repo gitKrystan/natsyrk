@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
+  root 'entries#index'
+
   resources :entries, only: [:index, :show]
-  
+
+  get 'admin' => 'admin/entries#index'
   namespace :admin do
     # Directs /admin/entries/* to Admin::EntriesController
     # (app/controllers/admin/entries_controller.rb)
-    resources :entries, except: [:show]
+    resources :entries, only: [:index, :new]
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

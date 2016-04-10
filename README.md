@@ -28,11 +28,12 @@ Natsyrk automatically generates portfolio entries using the Github API.
 `$ rspec`
 
 ## Adding Portfolio Entries
-Natsyrk adds any starred repositories that you own to your portfolio site.
-1. To add repos that you do not own but contribute to, you will need to fork the repo.
-1. Add a branch called `natsyrk` with a `portfolio_entry.md` file in the root directory.
+Natsyrk adds starred repositories to your portfolio site.
 1. Star the repository.
 1. Visit the admin page of your Natsyrk enabled site and click 'Update Entries From Github.'
+
+By default, Natsyrk uses the README to generate entry content. To customize the content, add a branch called `natsyrk` with a `portfolio_entry.md` file in the root directory.
+NOTE: To add repos that you do not own but contribute to, you will need to fork the repo.
 
 ## License
 Copyright (c) 2016 Krystan Menne

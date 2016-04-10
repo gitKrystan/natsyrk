@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 10 Apr 2016 02:51:54 GMT
+      - Sun, 10 Apr 2016 04:35:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,16 +31,16 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '56'
+      - '25'
       X-Ratelimit-Reset:
-      - '1460259757'
+      - '1460263774'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Vary:
       - Accept
       - Accept-Encoding
       Etag:
-      - W/"744a2383b0d8e7ff65b4f0da7f256c9a"
+      - W/"d246ddf8403edbfc6f1a8faa025cbce0"
       X-Github-Media-Type:
       - github.v3
       Access-Control-Expose-Headers:
@@ -59,76 +59,1235 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 7f48e2f7761567e923121f17538d7a6d
+      - 13d09b732ebe76f892093130dc088652
       Content-Encoding:
       - gzip
       X-Github-Request-Id:
-      - 43AAB36B:76D7:544CE4C:5709BFCA
+      - 43AAB36B:76D3:4C1FAB9:5709D802
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        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
-        7kdwAAA=
+        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
     http_version: 
-  recorded_at: Sun, 10 Apr 2016 02:51:54 GMT
+  recorded_at: Sun, 10 Apr 2016 04:35:15 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/natsyrk-test-blank/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F19:2084:BCD45F1:5709D803
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:15 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3122-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 8abd65b8a53e0d9b57d2129306a804931946c3f1
+      Expires:
+      - Sun, 10 Apr 2016 04:40:15 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:15 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/natsyrk-test-blank/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F20:2083:A78462B:5709D803
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:16 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3133-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - e84c6b74fb990c0c0610db6f0d5d083b9edec9fa
+      Expires:
+      - Sun, 10 Apr 2016 04:40:16 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:16 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/natsyrk-test-with-readme/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F19:2085:58F3AAC:5709D804
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:16 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3123-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - b31ee4948c27cb6f2c5305fdb32e41b6e1b360ca
+      Expires:
+      - Sun, 10 Apr 2016 04:40:16 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:16 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/natsyrk-test-with-readme/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"e039ae9bbf112bcc2c40b7486042c525eb53830a"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F1A:2083:A7846E2:5709D804
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '97'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:16 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3134-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 7487f16ee75ba5ff325f246786629c439f3be0e3
+      Expires:
+      - Sun, 10 Apr 2016 04:40:16 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAyWLQQqAMAwE733Fguf6FE9+IGBqi7YpSUD6eyvC3GZmQSO3
+        oVd0No9P8RyV6agcwp6LYUL4HJS7WHHRgSSKOrD9K7qoJ7mL4OTGSrNZwwve
+        69KhWgAAAA==
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:16 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/natsyrk-test-with-entry/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"ee5ca839b3eab6ef01e781d61dcc07b2ffc8bb34"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F21:2084:BCD4783:5709D804
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '96'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:16 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3132-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 85d547cad3cf54a8a8015fb22a09bdf70e4dac55
+      Expires:
+      - Sun, 10 Apr 2016 04:40:16 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAyWLQQqAMAwE733Fguf6FE9+oIfUBrUpSUDyeyvC3GZmQS9u
+        oWd2Ms8Pe8vUXSOlvbFhUvApKA0xdtFAFcUd2P4TQ9SrXCw4qJOW2azpBby5
+        RHNZAAAA
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:16 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/concoct/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F21:2084:BCD47E1:5709D804
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:16 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3125-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 8a316885969172e8e920b010762ec846604e148f
+      Expires:
+      - Sun, 10 Apr 2016 04:40:16 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:16 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/concoct/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"fc63a7048856a1307f5c4dcc27c549c6e942bd5f"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F1F:2083:A784743:5709D804
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1069'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:17 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3130-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 94bcfc9cd867b26eafb092ea46dc82c2365dc8bd
+      Expires:
+      - Sun, 10 Apr 2016 04:40:17 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5VWTXPbNhC961fsjC92h6bazrQHTS+OnLROrXxYTi+ZTgUC
+        KxI2CSALUCr/fXdBypJTZzrVRRSw2H379uFRZ7B8/275fnkPMDuTD7zBqoSf
+        UlPAj9//8DNcwl1fDfz1K/k+wAfyD6gTbD3B62C1N318OvpK4j7/TkNMysEK
+        ncM/z5uUQlzM57VNTV+V2nfyOAVdFPD5VvU0OLhWOxtfDG9528iuRL/F7RbW
+        OHS+pxejHzggGtxJ8Mo+IqxU4x0OLwbnvY4uZtwBXGPUZEOy3h1aOnuix0ZQ
+        sMcKVAi5e02oknU16D4m34H2+jEp2wKhtgFjAQY772KiMcxXQtylJ4suoYFA
+        vibVdbK3Z0Qjz8oZMCqpSkWM4/oHH1NNuP54O7/Sye7wDrUnU2bMbxhETxiP
+        gD9FpMtoDS5m38FSQOK3IAIXjNgyLAGxU2Q9T5N5Ca3tGKWiAVr7pfcUMzCO
+        IjSCn7uLmPKx1CAYsu4RuFV0tShH1uIeMTmMcc558gO0uMO2yKmcyo3bVDLK
+        qwPAEVemV1I84c08jCtEIj8mL3iSSUXwW0ClmwnpV0BlbjU65CEw58KqAR5v
+        zyRBDFxua7XKeQTIXSZrqppXXpHfR+TarP66Oe4JdQyow+KkWAFcfxo38OF1
+        GtqskEa5Wug+lJdW8mkmve0x93BCLj+z2A61Ss51GO6VYdrydOEc5kp+8ZWz
+        Y8ZPd7dwsciV/7C4Z0Ji+ipzcexgnMM4OaYAa1Fm5EQqQaN2CBWig8hPBpIf
+        xzwJs8w1roxhlI4LnTIgSXXjPZO2l1SeD9Lz5nh8yrKk9tiOo80aiNHW7l9I
+        Tia5VW0r1DCY80C2O6pTxKg9e8TJSmf/Rv7CpMuLk/zBc4ID68nvFZk4jmIq
+        KH2eFCUMfLsy7vM9H5WculUxDgVU1DstamcxsoraY7HXxorcMsF8vxJ+YwZ8
+        h+US36NunG99LW3z/TUz8YICfrtf3RawXK8LeKt2ap3daf7wsUfi3aMvFHBq
+        DAWQKJvLqDBUihTTY51iHxotY42pD1lQcONssgx8nTDE2UqxW0Z2k5PUcn8s
+        mxhzj2acLjPEc2rZU/mRt5kiH23yNIgu7noHmzCej5t8YBPil3ZTThZ18KTr
+        SUyzd2zttcocAfPLkmZEPOQwvWqMlSs/pb8f2B82Ve9MiwdgG4lGl5Hzz9FI
+        a+ziNICAzqDTQq4iPLZTzjabzYyka1Mt9AgLnhY6W9PzlYQxLVgPgdPI2UNH
+        N52YEawVG+fY2OzGTW0vpkDWJ489/WXEA30Qe4VfYFotOfIpQqo83+LjgjTX
+        WoubwlUI/4+3007/ozHK76EQSqryMdHMrdVMsBxZ+jCQrZsE5/pi/Ivw7IUv
+        MxJVRL9N+0w3+/542gCPDUdrX93cH5bL2T+U242MhQgAAA==
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:17 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/ember-aisle/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F23:2082:8632D4C:5709D804
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:17 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3125-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - a09ca36b4d3e4b2f678c9a8b1cc538d1b049c24b
+      Expires:
+      - Sun, 10 Apr 2016 04:40:17 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:17 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/ember-aisle/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"20eba29089ea7ded098637a7927208b07029d449"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F16:2082:8632E28:5709D805
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '797'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:17 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3134-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - a4290f74ab06b5710569f6b81728ad6d7bfb4901
+      Expires:
+      - Sun, 10 Apr 2016 04:40:17 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA61UTW/bMAy9+1cQ6KUZGqcrhh2KYcCSdUXXDxT9GDAUA6LI
+        jK1GFjVJruv++lFy7bQbhl2WgxFS5CP5+KQd+KS8xizb4R/MOzh2WMKpMAEd
+        +j04dZ0PwsA5GoN7sKic8oFshQ6uFdYccSmCU3ID143W6kGYLEuIoDxwnrAW
+        QiUCCK2p9dB4dB4CAblSGPWEfIrKga/IWmVK0IzvYdWBiCgeFGMAl3SYZ9lt
+        ypYRtyj4aE2uFkER2ytqAhhs+9hYu0hB1lHRyJBqioQOnMV/rXBByUYLN8Iz
+        A5eO5/7ZKK8C+iz7Tg20SmtGxiK2yslxkNhpqPjrYwGLTnfcDjOlNcdxPx01
+        DiTVtmEiGfoN3B2r8GO3CsEezmalClMv65wjZpN4eEEF5vd+DDBs3/ucWZpN
+        YLdVoYKLy/MUOqcW3Ri4ilauqIc5qle8mcXZyXjetm2O0TuVWm3rXVa8Yqq/
+        Xo+BtvcMRRMbJ/1IieI4w5L7BqnJIHxwaIlZItdNG6c/LiMfHrZeDpcMWbIS
+        GDdxF9dTKIfy+XxpbD3Qtox2GmbriS1cNcZEtmfwGR9Qk63RhNRLmgpYEQ/o
+        Yva3uLSe+Kg61tzd82iapNAV+XD47mB/f5z4tXuSBLADC2YejtGgE9wma+Bc
+        bDDqFmidpqiF6aAcA5KcJCftQXDd0FaF2g5BuEwxNYsMCgxCad+XGma7Qdb8
+        i5lYemH52oTpdJg0pc4bpQvOfZG1iq4l7BZbnia/nTIKmgflyMTT4W7wcjlt
+        a/S7/9K4EK/5FYqiXwDfvnWj4UyZTer2LiG/VG1ysIJGmY3K+4ceX+wW5o4f
+        Ci589BjQeO7HZwADVhSHTQLqea8c1diDe0bv7bwkKjUm9BZX6XrPeub7Fqcj
+        ymxVFyttJJYbNBshFapqXdn7tbUkyVRq8vfia5bymh631fm94W7zmp74yRDp
+        HqGZ3l7PniP7gD9aYL4B4lLPlOSJMZoLsp1TZRVgV07gYP/t+//xMgPcxEvq
+        aR1a4dIbrfuaBTSmiFpjgZ+f3AzuPPsFIrQVkSEGAAA=
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:17 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/natsyrk/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"e336d2e250bd57c59b2f77de2d1c1e05ad4bb39b"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F18:2083:A7848C5:5709D805
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '98'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:17 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3130-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 78748fbe396bf1b7f7ed38a83b62cb72ee79658d
+      Expires:
+      - Sun, 10 Apr 2016 04:40:17 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAy3IMQ6AIAwF0J1TNHHnDk7GxXiFSqo0AjXwGbi9Do7vTbQx
+        2qi3D5ad+0HcYZmhgVMadEmRypBGj1WcltRICqp+05uWixCFFkXsB8376t0L
+        fmvHglcAAAA=
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:17 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/agilist-io/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F1D:2084:BCD4A0D:5709D806
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:18 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3125-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 799249b2df53c57a26cdad56efa99e81fe55e261
+      Expires:
+      - Sun, 10 Apr 2016 04:40:18 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:18 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/agilist-io/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"6a70db299de4caa539f6f342716130dfd1bdd698"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F21:2084:BCD4A34:5709D806
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '944'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:18 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3124-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - da8d0454c329fd333fefd7a0a1b0bb5d7d2be82a
+      Expires:
+      - Sun, 10 Apr 2016 04:40:18 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA31VYW8iNxD9vr9ipJzUpsotJP0QKRJSCRCK7mARS6+qoip4
+        vcOu77z21vbCpb++M4Yk3OVSJRKJ/fxm/N4bcwaiUlr5kCqbJOtaeaDfUCP4
+        Tkr03joIFu6HhMKls59RBr/MRn//XIfQ+pter1Kh7opU2ob/bFSQde979PkF
+        CPAYwG6JzWoPW+LlygjtAQaNMKLCBk24AGWk7kplqpvkF/ggTCEMNBickv4C
+        9lQQ/KORtbNG/SuCsoZ7XN/lhJ5bExBGwmn7TO1V0+mIS5KzMxg6WatAG51D
+        vjOCw9Z6Fax7hL3wUAiPJRDrvRe1CD/5H9427p0DfpWoNbUN97WQX0SorXnv
+        g3AB3dvneq+w52lsLsfQtaTWAvcwxh1MzE7RPVmX5DKFO+u+gDAlSG0NklHk
+        1kv3KUNmhhi1jijXGVaksuPbuEfsQPT4Qgo74ZQoNHreRShQ2320h0PAyWDT
+        3jgwqq31CNwJO7u3YFuW2d8kAED1Rg4F2SEgJYa0pPts2fNooeAqjYj2KC1i
+        ziIMv4qm1XikGONWxZvij7uIZMpEgG3Rkc+monz4gA1fOTtskfINK6KJLHYH
+        m80mfr4D0zYUuajacaWwe3TfraU9Y0t8aGzZUdleWijT22NROrVD9/4QX0fq
+        lnTj5wJs6aozhntaow+eW6IF6IwK0SJFea3cMcWMgOKRfYtHNu+g6nS7SYFj
+        WuJWdDrAlJZAyHjEYdEpXXpgy9kEwuXLoY/cPjxSqzVioLkhzsNkv1364niK
+        AnmAHtwSNNPofPrUOxKIzIofb3QMeIXxvptDrFf4T6ccTdVJnuHTk4fJ5GA5
+        uao7slS4+C7sVEknOIsoZP1seZqwssPp7OMsX8+yh2W2Wg9+7ff7J2uz5eDy
+        6jrt088lNcDB51x47puUoojTk6JICCU0BZAzWjbKHGZA0hviLA218z2vKtO1
+        6Wef3A5HH8ZZtnrIVtMBH7mlES6tdS87k/lw9nFAkkpMa9tSGn87hpkn/wWX
+        T0aryXrwl+0cPLFQZeloPCtLApDc+AJfDOeTwZRZ4ffImiTzbDHNxreDhoe7
+        LOiF0VYKXVsfbq6u+5fXveO7zs96PsnzWbb4pmxObzv7/qrqqVhR+kYoerB3
+        SgDnn/9D91onglY2LIX3e+tK1muRjaMeE77v6tNsNBnM6TB9D7idkni6/wcB
+        BsYGtVUyxtF/o9sJcjnM8z+z1XjQHislcefhbpXN/4eBA/MfkypOSOsGAAA=
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:18 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/decidedly/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F1A:2083:A78495E:5709D806
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:18 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3120-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 5868b086cf5e67612e103104a8891c3a5e639a2a
+      Expires:
+      - Sun, 10 Apr 2016 04:40:18 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:18 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/decidedly/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"0849437fc1c42bf967ea883ab0bfc332f0ac6341"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F22:2081:5E402A2:5709D806
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '557'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:18 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3127-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 89205b91c047e54dc92a552cad26577be0d39e79
+      Expires:
+      - Sun, 10 Apr 2016 04:40:18 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA21TTXPTMBC961fsTDkkDOOkhekhR9pLoZ0pbeDSYYhib21N
+        FUlo5Qb/e3YlOxBCfIne7ntP2o8zuMbaNNjYQakz+cHHAT7HgZJ2cIfOoVKH
+        FDAEDOsQIHU6QYc2EPSEkWCnXxAaziTjnYDGtaDhaYI4IUXz6/usSynQarFA
+        V+3NiwnYGF352C7ktLge03+U9Hmlvmb5OqJOyIIFZ3904EPKZto1B2vONAkj
+        a8K6w3w52KNpu0RCOs2DrSZsgBEOmwghGs8hg/SuuGgi07IL1T4ii3hAXXej
+        +RGb8I+7EvfxspN/5mWZI9qBNBr6PoWe0zV7JW1HOqcX6rOPf9+gksbBfcSI
+        P3t+WkJSb+Gh3w5wUfEHnN7m6kXBtbEEHzhweRy495T49PjlVg6ddsnvPj1m
+        7RvH02CtFjd1XsHmDbQmQW29Q5jayUjXb6va7+TvOEGLZhqdjRCvWLZFMKyd
+        3+1wD42JWCcfh1F527vGSk72LLTS+0YnLWXL7Y49T5RpY74UKYDCjnkKt6sy
+        LpsTvFD+E+CqpVWIGHTEbPrQl95IgGBGyD1D6/fzXBKOOhnwBe/PK8Nhhy6p
+        SVJKzHP3WpS+SVNg8H3Mm8N78yRF45pZX2vbceFX75fLZVmNE3heHTmu5T5K
+        bChgvcmxW1OjI1RXPgxRZgVm9RwulueX/6zyuuMNJv+c9vxM2WZbmA1w1XlR
+        5MF3N+sJrtRv8esX9yAEAAA=
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:18 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/ember-adoptsy-ecommerce/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F1F:2085:58F3C3B:5709D806
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:19 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3125-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 730f24be7338e9fc823c8b41c49a8d790963365b
+      Expires:
+      - Sun, 10 Apr 2016 04:40:19 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:19 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/ember-adoptsy-ecommerce/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"1f4c98f51d416deba5a6cbd47c6232fe9e4e41a2"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F21:2084:BCD4BF0:5709D807
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '700'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:19 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3125-SJC
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 22b843d0078469a1377648c9ff16b4627f909775
+      Expires:
+      - Sun, 10 Apr 2016 04:40:19 GMT
+      Source-Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA4VU227bMAx991cQyEszLHYx7KkYBvSSFR2aouhlwFAMiGLT
+        thpZ1CS5bvb1o6TESTcMe7PIo0Py8MgTWAi7Rm+UKDHLHlrp4G5+erGYA/Ve
+        SY0OfItQoRdSOaAaSlJKrMgKL3UDpDnPl+bdCi0IY5QsOUM6z07BtWQ9SO0t
+        VX0ZooEg4hnJTL2qAIWTagMNQYsW8yybTODW8ufPXjrp0WXZd+phkEqBRqxi
+        PzU3QUNogNl048BYMmiZR2rnhVKM42ob6i2X6Uzv0TL1O3i6lP7HUeu9OSmK
+        RvqZK7ucEcU0JG+owvzZjQDN52eXk22KKRwN0rdwc7uI0DMa0I7AVTjlkhJN
+        EuP8+mrMD8OQY4jOSiX39W5boT11X+9HoEmRXdGoxlUaKcoaZlhy31Aq0gif
+        LBpilchuZr1Vn5dJ3X2U4SVTNhjWQFE7jQNU0mK5zS+16XayLcM5DrOPhBbu
+        eq2D2gVc4AsqMh1qH3uJU4FD+4I23P4WlpaEDzsWHp62oykqhWrJ+ZOPH46P
+        x4nfhqfRABM4Z+XhEjWyz8iyBxZijdA7TA5C6IRm04wAdkTYdIXvwdvNrq0W
+        ldmBcBkxHdnRzqnUbrYHdN4dzMTW88u3R5jNdpPGq2e9VBXfPbi1CqElHFV7
+        naZ/ZJkF9Yu0pEM2WHf7Ovja/jBNJS7QKNrEGvcGS1lvYGhZVRbZsyT8PInH
+        CZhR9PSGvvSWdbJwh6JKq3t0WPcKrqVexzmfYk+Hfo8B9t5o0NGz/3HygSvg
+        zNLAKsH81aN2PInLAHZcwVYmWi9trLXUYSJ3zJ7OeUPUKIzsA64co7FIO0st
+        zkaWYtVVK6VLbNao16KUKNu6Nc+1MVSSbuX038VrfgQ1ve6ri6ribvOOfvHP
+        RsQXiHr2eF9skQnwVwu8qd82urGxSAUAAA==
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:19 GMT
 recorded_with: VCR 3.0.1

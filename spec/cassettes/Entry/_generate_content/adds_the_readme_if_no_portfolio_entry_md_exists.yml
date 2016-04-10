@@ -1,0 +1,136 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/natsyrk-test-with-readme/natsyrk/portfolio_entry.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Github-Request-Id:
+      - 17EB2F19:2085:58F3AAC:5709D804
+      Content-Length:
+      - '9'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:22 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3124-SJC
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - 43cdb3ed68fe8c5d515a7383c3f90ee7034bc768
+      Expires:
+      - Sun, 10 Apr 2016 04:40:22 GMT
+      Source-Age:
+      - '6'
+    body:
+      encoding: UTF-8
+      string: Not Found
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:22 GMT
+- request:
+    method: get
+    uri: https://raw.githubusercontent.com/<github username>/natsyrk-test-with-readme/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Security-Policy:
+      - default-src 'none'; style-src 'unsafe-inline'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000
+      Etag:
+      - '"e039ae9bbf112bcc2c40b7486042c525eb53830a"'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - max-age=300
+      X-Github-Request-Id:
+      - 17EB2F1A:2083:A7846E2:5709D804
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '97'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 10 Apr 2016 04:35:22 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-sjc3132-SJC
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Authorization,Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fastly-Request-Id:
+      - b465c125880fe2242432038f26611b86d191a725
+      Expires:
+      - Sun, 10 Apr 2016 04:40:22 GMT
+      Source-Age:
+      - '6'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAyWLQQqAMAwE733Fguf6FE9+IGBqi7YpSUD6eyvC3GZmQSO3
+        oVd0No9P8RyV6agcwp6LYUL4HJS7WHHRgSSKOrD9K7qoJ7mL4OTGSrNZwwve
+        69KhWgAAAA==
+    http_version: 
+  recorded_at: Sun, 10 Apr 2016 04:35:22 GMT
+recorded_with: VCR 3.0.1

@@ -8,6 +8,7 @@ Natsyrk automatically generates portfolio entries using the Github API.
 * Ruby 2.2.2 or greater
 * Rails 4.2.6 or greater
 * PostgreSQL
+* PhantomJS
 
 ## Installation
 1. `$ git clone https://github.com/gitKrystan/natsyrk.git`

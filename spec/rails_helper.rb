@@ -67,6 +67,7 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
 
   config.include FactoryGirl::Syntax::Methods
+  config.extend VCR::RSpec::Macros
 end
 
 VCR.configure do |c|
@@ -74,4 +75,5 @@ VCR.configure do |c|
   c.hook_into :webmock
   c.configure_rspec_metadata!
   c.filter_sensitive_data('<github username>') { ENV['GITHUB_USERNAME'] }
+  c.default_cassette_options = { :record => :new_episodes }
 end
